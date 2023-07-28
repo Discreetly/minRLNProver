@@ -15,8 +15,8 @@ function getRateCommitmentHash(identityCommitment: bigint, userMessageLimit: num
   return poseidon2([identityCommitment, userMessageLimit]);
 }
 
-const wasmPath = './rln/circuit.wasm';
-const zkeyPath = './rln/final.zkey';
+const wasmPath = '../rln/circuit.wasm';
+const zkeyPath = '../rln/final.zkey';
 const prover: RLNProver = new RLNProver(wasmPath, zkeyPath);
 
 interface proofInputsI {
