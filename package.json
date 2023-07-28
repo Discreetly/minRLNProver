@@ -2,7 +2,7 @@
   "name": "minrlnprover",
   "version": "1.0.0",
   "description": "",
-  "main": "prover.js",
+  "main": "dist/index.js",
   "scripts": {
     "build": "rollup --config rollup.config.mjs",
     "start": "node dist/server.cjs",

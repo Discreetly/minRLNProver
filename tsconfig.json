@@ -2,7 +2,7 @@
   "compilerOptions": {
     "moduleResolution": "node",
     "outDir": "./dist",
-    "rootDir": "./",
+    "rootDir": "./src",
     "target": "ES2022",
     "module": "ES2022",
     "esModuleInterop": true,
@@ -13,6 +13,6 @@
     "experimentalSpecifierResolution": "node",
   },
   "files": [
-    "./index.ts"
+    "src/index.ts"
   ]
 }

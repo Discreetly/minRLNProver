@@ -7,7 +7,7 @@ import cleaner from 'rollup-plugin-cleaner'
 import * as fs from 'fs'
 
 
-const input = 'index.ts'
+const input = 'src/index.ts'
 const pkg = JSON.parse(fs.readFileSync('./package.json', 'utf-8'))
 const banner = `/**
  * @module ${pkg.name}
